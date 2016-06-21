@@ -33,7 +33,7 @@
           </div>
           <div class="col-sm-6 col-md-3 footer-block">
             <h3>Tags</h3>
-            <p class="tags">apps blog blogroll christmas cms coda concert daily design develop dialog drinks envato food fun gallery gift holiday icon illustration ipad iphone journal jquery label link marketing mobile motion music photo  profession quotation recipes show sound strategy tv typography video</p>
+            <p class="tags">apps blog blogroll christmas cms coda concert daily design develop dialog drinks envato food fun gallery gift holiday icon illustration ipad iphone journal jquery label link marketing mobile motion music photo  profession quotation recipes show sound strategy tv typography video journal jquery label link marketing journal jquery label link marketing</p>
           </div>
           <div class="col-sm-6 col-md-3 footer-block">
             <h3>A little about us</h3>
@@ -47,8 +47,8 @@
                  of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
             </div>
             <div class="">
-              <p class="data"><img title="contact" src="<?php bloginfo (template_url); ?>/img/contact_1.png" alt="contact"><a class="contact" href="#">Texas, US</a></p>
-              <p class="data"><img title="contact" src="<?php bloginfo (template_url); ?>/img/contact_2.png" alt="contact"><a class="contact" href="#">email@email.com</a></p>
+              <p class="data"><img title="contact" src="<?php bloginfo (template_url); ?>/img/contact_1.png" alt="contact"><a class="contact" href="#">Texas, US</a></p><br>
+              <p class="data"><img title="contact" src="<?php bloginfo (template_url); ?>/img/contact_2.png" alt="contact"><a class="contact" href="#">email@email.com</a></p><br>
               <p class="data"><img title="contact" src="<?php bloginfo (template_url); ?>/img/contact_3.png" alt="contact"><a class="contact" href="#">90-09880-45590</a></p>
             </div>
           </div>
