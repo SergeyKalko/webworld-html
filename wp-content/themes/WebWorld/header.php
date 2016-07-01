@@ -5,11 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title><?php bloginfo (); ?></title>
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <!-- <script src="<?php //bloginfo (template_url); ?>/css/bootstrap.js"></script> -->
   <script src="<?php bloginfo (template_url); ?>/css/bootstrap.min.js"></script>
-  <link href="<?php bloginfo (template_url); ?>/css/bootstrap.js" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="<?php bloginfo (template_url); ?>/js/main.js"></script>
+  
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 </head>

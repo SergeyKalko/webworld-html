@@ -13,17 +13,17 @@
     <div class="container ">
       <div class="row row-content">
         <div class="col-xs-6 col-sm-4 col-md-4 block-wrap ">
-          <p class="icon"><a class=" block block-1" href="#"></a></p>
+          <a class="block block-1" href="#"></a>
           <h4 class="block-title"><strong>Lorem Ipsum</strong> is simply</h4>
           <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, amet quas rem labore. Deleniti, officia.</p>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-4 block-wrap active">
-          <p class="icon"><a class="block block-2" href="#"></a></p>
+          <a class="block block-2" href="#"></a>
           <h4 class="block-title"><strong>Lorem Ipsum</strong> is simply</h4>
           <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptatibus in temporibus natus, id repudiandae.</p>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 block-wrap">
-          <p class="icon"><a class="block block-3" href="#"></a></p>
+          <a class="block block-3" href="#"></a>
           <h4 class="block-title"><strong>Lorem Ipsum</strong> is simply</h4>
           <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ab, natus quaerat nesciunt illo quod.</p>
         </div>

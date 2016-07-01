@@ -164,42 +164,53 @@ body {
 }
 .block-wrap {
   margin: 50px 0 75px;
-  .icon {
+  transition: all .25s ease-in-out;
+  text-align: center;
+  .block {
+    display: inline-block;
+    background-repeat: no-repeat;
     text-align: center;
     height: 117px;
-    .block {
-      display: inline-block;
-      background-repeat: no-repeat;
-    }
-    .block-1 {
-      background-image: url(../img/block_1.png);
-      width: 112px;
-      height: 112px;
-    }
-    //.block-1:hover {
-      //background-image: url(../img/block_1a.png);
-    //}
-    .block-2 {
-      background-image: url(../img/block_2.png);
-      width: 117px;
-      height: 117px;
-    }
-    //.block-2:hover {
-     // background-image: url(../img/block_2a.png);
-   // }
-    .block-3 {
-      background-image: url(../img/block_3.png);
-      width: 126px;
-      height: 111px;
-    }
-   // .block-3:hover {
-    //  background-image: url(../img/block_3a.png);
-    //}
   }
+  .block-1 {
+    background-image: url(../img/block_1.png);
+    width: 112px;
+  }
+  //.block-1:hover {
+    //background-image: url(../img/block_1a.png);
+  //}
+  .block-2 {
+    background-image: url(../img/block_2.png);
+    width: 117px;
+  }
+  //.block-2:hover {
+   // background-image: url(../img/block_2a.png);
+ // }
+  .block-3 {
+    background-image: url(../img/block_3.png);
+    width: 126px;
+  }
+ // .block-3:hover {
+  //  background-image: url(../img/block_3a.png);
+  //}
 }
 .block-wrap.active {
   margin: 70px 0 55px;
   position: relative;
+  &:after {
+    content: "";
+    margin-right: -40px;
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    bottom: -55px;
+    border: 40px solid #eeeeee;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+  }
   .block-1 {
     background-image: url(../img/block_1a.png);
   }
@@ -209,19 +220,6 @@ body {
   .block-3 {
     background-image: url(../img/block_3a.png);
   }
-}
-.active:after {
-  content: "";
-  width: 80px;
-  height: 50px;
-  display: inline-block;
-  position: absolute;
-  right: 85px;
-  bottom: -55px;
-  border: 40px solid #eeeeee;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
 }
 .block-title {
   text-align: center;
